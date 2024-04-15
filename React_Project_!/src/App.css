@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+:root{
+  --red: #D01C28;
+  --gray:#2e2e2e;
+}
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+nav{
+  display:flex;
+  justify-content: space-around;
+  height: 72px;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 24px;
+  color: #2E2E2E;
+  font-weight: 600;
+}
+.container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+button{
+  all:unset;
+  padding: 6px 16px;
+  background: var(--red);
+  height: 32px;
+  color:white;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.hero{
+  display: flex;
+  align-items: center;
+  height: cal(100vh-72px);
+}
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  gap:36px;
+}
+.hero h1{
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 102px;
+}
+.hero p{
+  font-weight: 600;
+  color: var(--gray);
+  max-width: 400px;
+}
+.hero-btn{
+  display: flex;
+  gap: 40px;
+  font-size: 24px;
+}
+.secondary-btn{
+  background: transparent;
+  color: var(--gray);
+  border: 1px solid var(--gray);
+}
+.shopping p{
+  font-size: 14px;
+  margin-bottom:8px;
+}
+.brand-icons{
+  display: flex;
+  gap:16px;
+}
